@@ -1,60 +1,137 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-ul{
-
-    margin:0;
-    padding: 0;
-}
-
-
-a{ text-decoration: none  ;}
-
-body{
-
-    font-family: "Open Sans", sans-serif;
-    font-size: 17.5px;
-}
-
-header{
+.flex-section{
     width: 100%;
-    padding: 5px 0;
-}
+    padding: 80px 0px;
 
+}
 
 .container{
     width: 1140px;
     margin: 0 auto;
+}
+ 
+.flex-box{
+ 
+    height: 65vh;
+    border: 3px solid #ff000f;
     display: flex;
-    align-items: center;
+    justify-content: center;
+   
 }
 
-.logo, .buttons{
-    flex-basis: 25%;
+
+
+.box{
+
+    width: 120px;
+    height: 120px;
+    background: darkblue;
+    margin: 10px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+
 }
 
-.nav{
-    flex-basis: 75%;
+.box3{
+    background-color: white;
+    color: rgb(56, 175, 196);
+   
+   align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
 }
 
-.nav ul li {
+
+.box1{
+    order: 3;
+}
+
+.box2{
+    order: 1;
+}
+
+.box3{
+    order: 2;
+}
+
+
+.social-icons{
+    text-align: center;
+}
+
+.social-icons ul{
+ 
+ margin: 0;
+ padding: 0;
+
+}
+
+.social-icons ul li{
     list-style-type: none;
     display: inline-block;
-    margin-right: 20px;
-    color:rgb(8, 115, 236);
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    background: darkblue;
+    /* color: white; */
+    line-height: 60px;
+    border-radius: 20px 0px;
+    transition: 0.7s;
 }
 
 
-.buttons button{
 
-padding: 10px 20px;
-font-size: 17.5px;
-color:white;
-background: rgb(8, 115, 236) ;
-border: 1px solid rgb(8, 115, 236);
+
+.social-icons ul li:hover {
+
+    background:  rgb(139, 67, 0);
+ 
+    border-radius: 0px 20px;
+    transition: 0.7s;
 
 }
+
+
+
+.social-icons ul li a{
+
+}
+
+.social-icons ul li a i{
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.social-icons ul li:hover .fa{
+  color: rgb(74, 236, 52);  
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
