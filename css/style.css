@@ -15,12 +15,12 @@ a{ text-decoration: none  ;}
 body{
 
     font-family: "Open Sans", sans-serif;
-    font-size: 17px;
+    font-size: 17.5px;
 }
 
 header{
     width: 100%;
-    padding: 5px;
+    padding: 5px 0;
 }
 
 
@@ -32,25 +32,25 @@ header{
 }
 
 .logo, .buttons{
-    flex-basis: 21%;
+    flex-basis: 25%;
 }
 
 .nav{
-    flex-basis: 60%;
+    flex-basis: 75%;
 }
 
 .nav ul li {
     list-style-type: none;
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 20px;
     color:rgb(8, 115, 236);
 }
 
 
 .buttons button{
 
-padding: 15px 30px;
-font-size: 17px;
+padding: 10px 20px;
+font-size: 17.5px;
 color:white;
 background: rgb(8, 115, 236) ;
 border: 1px solid rgb(8, 115, 236);
